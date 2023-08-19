@@ -17,12 +17,12 @@ setuptools.setup(
     description="A small python package of NLP Application",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sauravvs22/Text-Summarization-Project",
+    url="https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": "https://github.com/sauravvs22/Text-Summarization-Project/issues",
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"":"src"},
-    packages=setuptools.find_packages(where="src"),
+    packages=setuptools.find_packages(where="src")
     
 
 )
